@@ -1,0 +1,21 @@
+# Vivado temporary files and directories
+/.Xil/
+/runs/
+/hd_visual/
+*.jou
+*.log
+*.pb
+*.str
+*.vdi
+
+# Compilation and Simulation folders
+/sim/
+/ip/
+/pcw/
+*.mem
+*.dir
+
+# Metadata and local settings (don't share your PC-specific paths)
+.usage_statistics_webtalk.xml
+vivado.ini
+vivado_pid*.str
