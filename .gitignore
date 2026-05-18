@@ -1,3 +1,22 @@
+# Ignore Vivado temporary directories anywhere in the project
+**/4_Digit_BCD_Counter.cache/
+**/4_Digit_BCD_Counter.hw/
+**/4_Digit_BCD_Counter.ip_user_files/
+**/4_Digit_BCD_Counter.sim/
+**/4_Digit_BCD_Counter.runs/
+# Ignore all Vivado-generated junk
+**/*.cache/
+**/*.hw/
+**/*.ip_user_files/
+**/*.sim/
+**/*.runs/
+**/vivado_pid*.str
+*.log
+*.jou
+# Ignore specific log and journal files
+*.log
+*.jou
+*.str
 # Vivado temporary files and directories
 /.Xil/
 /runs/
